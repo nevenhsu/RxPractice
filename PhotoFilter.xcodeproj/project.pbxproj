@@ -14,6 +14,7 @@
 		217DA76F23029D6D00A41C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217DA76D23029D6D00A41C72 /* Main.storyboard */; };
 		217DA77123029D6E00A41C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217DA77023029D6E00A41C72 /* Assets.xcassets */; };
 		217DA77423029D6E00A41C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217DA77223029D6E00A41C72 /* LaunchScreen.storyboard */; };
+		21FDB5DB230BCD630082F712 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDB5DA230BCD630082F712 /* FilterService.swift */; };
 		ACDF1F56FE54B52EC7744D86 /* Pods_PhotoFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA8542F9726566508D95522 /* Pods_PhotoFilter.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		217DA77023029D6E00A41C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		217DA77323029D6E00A41C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		217DA77523029D6E00A41C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FDB5DA230BCD630082F712 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 		8342CE744D06BE709EFFDF07 /* Pods-PhotoFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoFilter.debug.xcconfig"; path = "Target Support Files/Pods-PhotoFilter/Pods-PhotoFilter.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA8542F9726566508D95522 /* Pods_PhotoFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				217DA77523029D6E00A41C72 /* Info.plist */,
 				21355BD02302A91000702356 /* PhotoCollectionVC.swift */,
 				21355BD22303B3B700702356 /* PhotoCollectionViewCell.swift */,
+				21FDB5DA230BCD630082F712 /* FilterService.swift */,
 			);
 			path = PhotoFilter;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				217DA76C23029D6D00A41C72 /* PhotoFilterVC.swift in Sources */,
+				21FDB5DB230BCD630082F712 /* FilterService.swift in Sources */,
 				21355BD32303B3B700702356 /* PhotoCollectionViewCell.swift in Sources */,
 				21355BD12302A91000702356 /* PhotoCollectionVC.swift in Sources */,
 				217DA76A23029D6D00A41C72 /* AppDelegate.swift in Sources */,
